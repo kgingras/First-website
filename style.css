@@ -1,0 +1,78 @@
+
+
+h1 {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background: lightblue;
+	font-size: 300%;
+	color: blue;
+	text-decoration: none;	
+}
+
+h2 {
+	font-style: verdana;
+	text-align: center;
+	font-size: 200%;
+
+}
+
+.team{
+	width:20%;
+	float:left;
+}
+
+.dice{
+	float:bottom;
+	font-weight: bold;
+	font-size: 130%;
+
+}
+
+#myform {
+    text-align: center;
+    padding: 5px;
+   
+}
+
+.numbut{
+   width: 20px;
+   height: 15px;
+   text-align: center;
+}
+
+.qty {
+    width: 33px;
+    height: 18px;
+    text-align: center;
+}
+
+input.qtyplus { width:25px; height:18px;}
+input.qtyminus { width:25px; height:18px;}
+
+body {
+	margin:0;
+	padding:10;
+}
+
+
+.footer {
+    position:absolute;
+    bottom:0;
+    padding: 10px;
+  	line-height:20px;
+    vertical-align: baseline;
+    color: white;
+
+}
+
+
+/* id syntax */
+#myElt {
+    /* style */
+}
+
+/* class syntax */
+.myClass {
+    /* style */
+}

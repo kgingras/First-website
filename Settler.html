@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <title>Page Title</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src = "counter.js"></script>
+
+</head>
+
+
+
+<style>
+#nav {
+  
+    height: 100vh;
+    line-height:40px;
+    background-color:lightblue;
+    width:100px;
+    padding-left: 2em;
+    text-indent: -2em;
+    float:left;
+    
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+a:active {
+    text-decoration: underline;
+}
+</style>
+
+
+<div id="nav">
+<br>
+<a href= "About.html">About me<a><br>
+<a href= "resume.html">Resume<a><br>
+<a href= "githubstuff.html">Github<a><br>
+<a href= "Projects.html">Projects<a><br>
+<a href= "Settler.html">Settlers Companion App<a><br>
+
+
+  <div class = "footer">
+    &copy; Keith Gingras
+  </div>
+
+</div>
+
+
+
+<body>
+<h1><a href= "index.html" >Keith Gingras</a></h1>
+
+<h2> LETS SETTLE! </h2>
+
+<div id = "teams">
+  <div class = "team" style="width:image width 200px;text-align:center;">
+    <img src="bluesettler.jpg" style = "width:200px;height:200px;margin:10px;" />
+    <p style = "color:blue;font-size:200%">Blue Team</p>
+    <p style = "font-size:120%">Victory Points</p>
+
+    <form id='myform' method='POST' action='#'>
+      <input type='button' value='-' class='qtyminus' field='quantity'>
+      <input type='text' name='quantity' value='0' class='qty' />
+      <input type='button' value='+' class='qtyplus' field='quantity'/>
+    </form>
+  </div>
+
+  <div class = "team" style="width:image width 200px;text-align:center;">
+    <img src="orangecity.jpg" style = "width:200px;height:200px;margin:10px;" />
+    <p style = "color:Orange;font-size:200%">Orange Team</p>
+    <p style = "font-size:120%">Victory Points</p>
+
+    <form id='myform' method='POST' action='#'>
+      <input type='button' value='-' class='qtyminus' field='quantity' />
+      <input type='text' name='quantity' value='0' class='qty' />
+      <input type='button' value='+' class='qtyplus' field='quantity' />
+    </form>
+
+  </div>
+
+  <div class = "team" style="width:image width 200px;text-align:center;">
+    <img src="whitesettler.jpg" style = "width:200px;height:200px;margin:10px;" />
+    <p style = "color:Black;font-size:200%">White Team</p>
+    <p style = "font-size:120%">Victory Points</p>
+
+    <form id='myform' method='POST' action='#'>
+      <input type='button' value='-' class='qtyminus' field='quantity' />
+      <input type='text' name='quantity' value='0' class='qty' />
+      <input type='button' value='+' class='qtyplus' field='quantity' />
+    </form>
+
+  </div>
+
+
+  <div class = "team" style="width:image width 200px;text-align:center;">
+    <img src="redsettler.jpg" style = "width:200px;height:200px;margin:10px;" />
+    <p style = "color:red;font-size:200%">Red Team</p>
+    <p style = "font-size:120%">Victory Points</p>
+
+    <form id='myform' method='POST' action='#'>
+      <input type='button' value='-' class='qtyminus' field='quantity' />
+      <input type='text' name='quantity' value='0' class='qty' />
+      <input type='button' value='+' class='qtyplus' field='quantity' />
+    </form>
+
+  </div>
+</div>
+
+<div class = "dice">
+Dice Rolls
+
+
+<form id='myform' method='POST' action='#'>
+      <input type="image" src="2.png" name='quantity' class="qtyplus" field='quantity' />
+      <input type='text' name='quantity' value='0' class='qty' />
+</form>
+
+<form id='myform' method='POST' action='#'>
+      <input type="image" src="3.png" name='quantity' class="qtyplus" field='quantity' />
+      <input type='text' name='quantity' value='0' class='qty' />
+</form>
+
+<form id='myform' method='POST' action='#'>
+      <input type="image" src="4.png" name='quantity' class="qtyplus" field='quantity' />
+      <input type='text' name='quantity' value='0' class='qty' />
+</form>
+
+<form id='myform' method='POST' action='#'>
+      <input type="image" src="5.png" name='quantity' class="qtyplus" field='quantity' />
+      <input type='text' name='quantity' value='0' class='qty' />
+</form>
+
+<form id='myform' method='POST' action='#'>
+      <input type="image" src="6.png" name='quantity' class="qtyplus" field='quantity' />
+      <input type='text' name='quantity' value='0' class='qty' />
+</form>
+
+<form id='myform' method='POST' action='#'>
+      <input type="image" src="7.png" name='quantity' class="qtyplus" field='quantity' />
+      <input type='text' name='quantity' value='0' class='qty' />
+</form>
+
+<form id='myform' method='POST' action='#'>
+      <input type="image" src="8.png" name='quantity' class="qtyplus" field='quantity' />
+      <input type='text' name='quantity' value='0' class='qty' />
+</form>
+
+<form id='myform' method='POST' action='#'>
+      <input type="image" src="9.png" name='quantity' class="qtyplus" field='quantity' />
+      <input type='text' name='quantity' value='0' class='qty' />
+</form>
+
+<form id='myform' method='POST' action='#'>
+      <input type="image" src="10.png" name='quantity' class="qtyplus" field='quantity' />
+      <input type='text' name='quantity' value='0' class='qty' />
+</form>
+
+<form id='myform' method='POST' action='#'>
+      <input type="image" src="11.png" name='quantity' class="qtyplus" field='quantity' />
+      <input type='text' name='quantity' value='0' class='qty' />
+</form>
+
+<form id='myform' method='POST' action='#'>
+      <input type="image" src="12.png" name='quantity' class="qtyplus" field='quantity' />
+      <input type='text' name='quantity' value='0' class='qty' />
+</form>
+
+
+
+</div>
+
+</body>
+
+
+
+</html>
