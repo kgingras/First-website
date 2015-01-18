@@ -29,6 +29,22 @@ h2 {
 
 }
 
+#composite{
+	background: url("settlerboard.jpg");
+
+}
+
+
+
+
+
+#victory{
+	font-size:120%;
+	background:white;
+	width:50%;
+	margin-left: 60px;
+}
+
 .button {
    border-top: 1px solid #3d9620;
    background: #3d9620;
@@ -94,13 +110,18 @@ h2 {
     padding: 5px;
    
 }
+#numbutton{
+	width:30px;
+	height: 40px;
 
+}
 .qty {
     width: 33px;
     height: 18px;
     text-align: center;
 }
 
+input.numplus { width:25px; height:18px;}
 input.qtyplus { width:25px; height:18px;}
 input.qtyminus { width:25px; height:18px;}
 
@@ -120,13 +141,3 @@ body {
 
 }
 
-
-/* id syntax */
-#myElt {
-    /* style */
-}
-
-/* class syntax */
-.myClass {
-    /* style */
-}
