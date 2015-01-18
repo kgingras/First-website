@@ -34,7 +34,9 @@ h2 {
 
 }
 
-
+#para{
+	text-align: center;
+}
 
 
 
@@ -46,7 +48,7 @@ h2 {
 }
 
 .button {
-   border-top: 1px solid #3d9620;
+   border-top: 1px solid #000000;
    background: #3d9620;
    background: -webkit-gradient(linear, left top, left bottom, from(#3d9620), to(#3d9620));
    background: -webkit-linear-gradient(top, #3d9620, #3d9620);
@@ -128,6 +130,7 @@ input.qtyminus { width:25px; height:18px;}
 body {
 	margin:0;
 	padding:10;
+	background: url("greyzz.png");
 }
 
 
@@ -141,3 +144,36 @@ body {
 
 }
 
+
+.button2 {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 14px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   float:right;
+   width:13%;
+   }
+.button2:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.button2:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
