@@ -54,6 +54,9 @@ jQuery(document).ready(function(){
         
         console.log($input.val());
         $input.val(val + ($(this).hasClass('minus') ? -1 : 1));
+        if (!isNaN(currentVal)){
+            $input.val(0);
+        }
         
     });
 
